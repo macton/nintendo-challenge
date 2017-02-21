@@ -16,7 +16,7 @@ print_test( int size, uint32_t* in, uint32_t* out, int out_count )
   int wc = size/32;
   for (int i=0;i<out_count;i++)
   {
-    printf("  (",i);
+    printf("  (");
     p_gf2_print( size, out + (2*i*wc) );
     printf(") (");
     p_gf2_print( size, out + (2*i*wc)+wc );
