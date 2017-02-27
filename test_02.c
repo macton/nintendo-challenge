@@ -51,6 +51,8 @@ main( void )
     printf(" ");
     print_32b(b[1]);
     printf("\n");
+
+    printf("\n");
   }
 
 

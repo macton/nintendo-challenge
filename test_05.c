@@ -32,7 +32,7 @@ main( void )
   a[0] = 0xffffffff;
   a[1] = 0x0f;
 
-  printf("a 0x%08x 0x%08x ",a[1],a[0]);
+  printf("a ");
   print_32b(a[1]);
   printf(" ");
   print_32b(a[0]);
@@ -47,7 +47,7 @@ main( void )
 
   encode( a,b,32 );
 
-  printf("b 0x%08x 0x%08x ",b[1], b[0]);
+  printf("b ");
   print_32b(b[1]);
   printf(" ");
   print_32b(b[0]);
@@ -60,7 +60,7 @@ main( void )
 
   encode( a,b,32 );
 
-  printf("b 0x%08x 0x%08x ",b[1], b[0]);
+  printf("b ");
   print_32b(b[1]);
   printf(" ");
   print_32b(b[0]);
@@ -73,7 +73,7 @@ main( void )
 
   encode( a,b,32 );
 
-  printf("b 0x%08x 0x%08x ",b[1], b[0]);
+  printf("b ");
   print_32b(b[1]);
   printf(" ");
   print_32b(b[0]);
@@ -86,7 +86,7 @@ main( void )
 
   encode( a,b,32 );
 
-  printf("b 0x%08x 0x%08x ",b[1], b[0]);
+  printf("b ");
   print_32b(b[1]);
   printf(" ");
   print_32b(b[0]);
@@ -101,7 +101,7 @@ main( void )
 
   encode( a,b,32 );
 
-  printf("b 0x%08x 0x%08x ",b[1], b[0]);
+  printf("b ");
   print_32b(b[1]);
   printf(" ");
   print_32b(b[0]);
